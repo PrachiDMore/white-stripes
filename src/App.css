@@ -8,7 +8,7 @@ html {
 body {
   scroll-behavior: smooth;
   font-family: serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: rgba(25, 38, 57, 0.7);
   -webkit-tap-highlight-color: transparent;
 }
