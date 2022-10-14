@@ -1,13 +1,15 @@
 import React from 'react'
+import CookiesPopup from '../components/CookiesPopup'
 import Footer from '../components/Footer'
 
 const Home = () => {
   return (
     <>
+      <CookiesPopup />
       <div className='h-screen w-screen'>
         {/* First Section */}
         <section className='overflow-hidden block lg:hidden h-screen w-screen bg-gray-700 text-white relative'>
-          <video src="/Assets/Banner.mp4" autobuffer autoPlay loop muted style={{ scale: '4' }} className='overflow-hidden brightness-50 md:scale-100 lg:scale-110 h-screen absolute w-screen top-0 left-0'>
+          <video src="/Assets/Banner.mp4" playsInline preload="yes" autobuffer autoPlay loop muted style={{ scale: '4' }} className='overflow-hidden brightness-50 md:scale-100 lg:scale-110 h-screen absolute w-screen top-0 left-0'>
             <source type="video/mp4" />
           </video>
           <div className='w-full lg:w-auto flex lg:block items-center flex-col text-center lg:text-left p-0 lg:px-44 absolute position-top-70'>
@@ -20,7 +22,7 @@ const Home = () => {
 
 
         <section className='hidden lg:block h-screen w-screen bg-gray-700 text-white relative'>
-          <video src="/Assets/Banner.mp4" autobuffer autoPlay loop muted className='object-fill brightness-50 md:scale-100 lg:scale-110 h-screen absolute w-screen top-0 left-0'>
+          <video src="/Assets/Banner.mp4" playsInline preload="yes" autobuffer autoPlay loop muted className='object-fill brightness-50 md:scale-100 lg:scale-110 h-screen absolute w-screen top-0 left-0'>
             <source type="video/mp4" />
           </video>
           <div className='w-full lg:w-auto flex lg:block items-center flex-col text-center lg:text-left p-0 lg:px-44 absolute position-top-70'>
