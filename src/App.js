@@ -10,6 +10,7 @@ import Fabrics from './pages/Fabrics';
 import Contact from './pages/Contact';
 import TermsAndCondition from './pages/TermsAndCondition';
 import Appointment from './pages/Appointment';
+import WhatsApp from './components/WhatsApp';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <>
+      <WhatsApp />
       <BrowserRouter>
         <Navbar setOpenMenu={setOpenMenu} />
         <Sidebar openMenu={openMenu} setOpenMenu={setOpenMenu} />

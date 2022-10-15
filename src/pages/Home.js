@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import CookiesPopup from '../components/CookiesPopup'
 import Footer from '../components/Footer'
+import { BsInstagram } from 'react-icons/bs';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { AiFillYoutube } from 'react-icons/ai';
 
 const Home = () => {
 
@@ -81,7 +84,12 @@ const Home = () => {
         <section className='w-screen bg-white py-20 lg:px-36 px-5 flex flex-col'>
           <h1 className='text-gray-800 text-4xl text-center'>THE BRAND</h1>
           <p className='Raleway text-gray-800 mt-10 font-medium lg:text-left text-justify'>The White Stripes Tailors & Shirtmakers believes in the power of individualism, perfection and delightful service, and this spirit reflects in everything we do, from tailored suits to hand-sewn ties. We are devoted to classical gentlemen's elegance yet would embrace unconventionality based on individual taste. Our trained tailoring team will go that extra mile to delight you. </p>
-          <div className='bg-gray-600 py-10 flex items-center flex-col mt-36 box-shadow-light'>
+          <div className="w-8/12 lg:w-4/12 h-auto m-auto mt-10 flex justify-between items-center">
+            <a target={'_blank'} href="https://instagram.com/whitestripes_tailors"><span className='cursor-pointer p-3 text-2xl rounded-full buttons text-white duration-200 flex items-center justify-center w-max'><BsInstagram /></span></a>
+            <a target={'_blank'} href="https://www.linkedin.com/company/whitestripes-tailors/"><span className='cursor-pointer p-3 text-2xl rounded-full buttons text-white duration-200 flex items-center justify-center w-max'><FaLinkedinIn /></span></a>
+            <a target={'_blank'} href="https://youtube.com/channel/UCaCe7oMK6p7B8Y29qzNJ9OA"><span className='cursor-pointer p-3 text-2xl rounded-full buttons text-white duration-200 flex items-center justify-center w-max'><AiFillYoutube /></span></a>
+          </div>
+          <div className='bg-gray-600 py-10 flex items-center flex-col mt-12 box-shadow-light'>
             <h1 className='text-white text-4xl text-center'>OUR TAILORING</h1>
             <p className='Raleway text-white mt-10 text-center w-9/12'>A suit tells the world you are ready for business. With The White Stripes, you can be assured of a perfect bespoke experience ranging from a perfect fit to inlays that allow adjustment to the main body seams, and from cuffs that feature opening slit to hand stitched button holes and hand-sewn ties.</p>
           </div>
