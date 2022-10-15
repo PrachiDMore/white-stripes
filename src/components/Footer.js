@@ -23,7 +23,7 @@ const Footer = ({ appointment, vipexperience }) => {
 					<p className='Raleway mt-4 w-11/12'><Link className='accent-text-color' to="/terms-and-conditions">Terms and Conditions</Link></p>
 				</div>
 				<div className='bg-gray-900 py-7 w-screen text-white text-center px-10 lg:px-44 flex flex-col items-center border-b border-gray-800'>
-					<p className='Raleway text-xs text-center text-gray-500'>© 2021 The White Stripes tailors & Fabrics. All Rights Reserved.</p>
+					<p className='Raleway text-xs text-center text-gray-500'>© 2022 The White Stripes Tailors & Fabrics. All Rights Reserved.</p>
 				</div>
 			</div>
 		</>

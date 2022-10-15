@@ -18,7 +18,7 @@ const Navbar = ({ setOpenMenu }) => {
       <div ref={navRef} className='duration-300 bg-opacity-30 bg-gray-900 h-32 w-screen flex justify-between fixed items-center px-16 z-1000'>
         <div></div>
         <Link to="/"><img src="/Assets/logo.png" className='lg:h-20 h-16' alt="" /></Link>
-        <FaBars className='text-white h-7 cursor-pointer' onClick={() => { setOpenMenu(true) }} />
+        <FaBars className='lg:static relative left-4 text-white h-7 cursor-pointer' onClick={() => { setOpenMenu(true) }} />
       </div>
     </>
   )

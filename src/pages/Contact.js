@@ -29,7 +29,7 @@ const Contact = () => {
 				<div className='pt-10'>
 					<h1 className='lg:block lg:px-44 text-2xl lg:text-4xl pb-10 accent-text-color lg:text-left text-center'>CONTACT US</h1>
 					<div className='bg-gray-900 py-9 px-5 lg:px-44'>
-						<h1 className='text-white text-2xl text-left'>REACH US</h1>
+						<h1 className='text-white text-2xl text-center'>REACH US</h1>
 						<div className='Raleway text-white lg:text-justify mt-5'>
 							We look forward to hearing from you. For general enquiries, please send us an email at delight@whitestripes-tailoring.com. For The White Stripes VIP Experience at your doorstep, please drop us an email at vip.delight@whitestripes-tailoring.com with your contact details and our team will get in touch with you to fix an appointment within 24 hours.
 						</div>
