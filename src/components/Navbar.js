@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { FaBars } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = ({ setOpenMenu }) => {
   const navRef = useRef()
@@ -13,6 +13,11 @@ const Navbar = ({ setOpenMenu }) => {
       }
     })
   }, []);
+
+  const location = useLocation()
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, [location]);
   return (
     <>
       <div ref={navRef} className='duration-300 bg-opacity-30 bg-gray-900 h-32 w-screen flex justify-between fixed items-center px-16 z-1000'>

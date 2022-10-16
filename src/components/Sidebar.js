@@ -15,7 +15,7 @@ const Sidebar = ({ openMenu, setOpenMenu }) => {
                 </div>
                 <div className='flex flex-col justify-center items-center text-white'>
                     <p className='m-2 text-lg'>BOOK YOUR APPOINMENT HERE</p>
-                    <Link exact to="/appointment"><button className='mb-6 text-lg border border-red-600 p-2 px-10'>BOOK NOW</button></Link>
+                    <Link exact to="/appointment"><button className='mb-6 text-lg border p-2 px-10 accent-button'>BOOK NOW</button></Link>
                     <p className='m-3 text-2xl hover:text-orange-500 duration-200'><Link exact to="/">HOME</Link></p>
                     <p className='m-3 text-2xl'><Link exact to="/dubai" className='hover:text-orange-500 duration-200'>DUBAI</Link> / <Link className='hover:text-orange-500 duration-200' exact to="/abu-dhabi">ABU DHABI</Link></p>
                     <p className='m-3 text-2xl hover:text-orange-500 duration-200'><Link exact to='/fabrics'>FABRICS</Link></p>

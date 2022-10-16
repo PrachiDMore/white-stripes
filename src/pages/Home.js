@@ -21,11 +21,11 @@ const Home = () => {
           <video src="/Assets/Banner.mp4" ref={mobileVideo} playsInline preload="yes" autobuffer autoPlay loop muted style={{ scale: '4' }} className='overflow-hidden brightness-50 md:scale-100 lg:scale-110 h-screen absolute w-screen top-0 left-0'>
             <source type="video/mp4" />
           </video>
-          <div className='w-full lg:w-auto flex lg:block items-center flex-col text-center lg:text-left p-0 lg:px-44 absolute position-top-70'>
+          <div className='w-full lg:w-auto flex lg:block items-center flex-col text-center lg:text-left p-0 lg:px-44 absolute position-top-60'>
             <p className='accent-text-color text-3xl lg:text-40'>SAY</p>
             <p className='text-3xl lg:text-40'>WHO YOU ARE</p>
             <p className='text-xs mt-1 lg:text-40 tracking-widest'>WITHOUT HAVING TO SPEAK</p>
-            <button className='mt-4 border accent-text-color accent-border-color px-3 py-2'><a href='#bottom'>FIND STORE</a></button>
+            <button className='mt-4 border accent-text-color accent-border-color px-3 py-2 accent-button'><a href='#bottom'>FIND STORE</a></button>
           </div>
         </section>
 
@@ -38,7 +38,7 @@ const Home = () => {
             <p className='accent-text-color text-3xl text-40'>SAY</p>
             <p className='text-3xl text-40'>WHO YOU ARE</p>
             <p className='mt-1 text-xl tracking-widest'>WITHOUT HAVING TO SPEAK</p>
-            <button className='mt-4 border accent-text-color accent-border-color px-3 py-2'><a href='#bottom'>FIND STORE</a></button>
+            <button className='accent-button mt-4 border accent-text-color accent-border-color px-3 py-2'><a href='#bottom'>FIND STORE</a></button>
           </div>
         </section>
 
@@ -111,7 +111,7 @@ const Home = () => {
                   <a href="tel:050-9016869">050-9016869</a>
                 </div>
                 <div className='flex items-center justify-center'>
-                  <button className='mt-4 border accent-text-color accent-border-color px-3 py-2'><a href="https://goo.gl/maps/GFBY9fYHNGWGZQHJ9">GET DIRECTION</a></button>
+                  <button className='mt-4 border accent-text-color accent-border-color px-3 py-2 accent-button'><a href="https://goo.gl/maps/GFBY9fYHNGWGZQHJ9">GET DIRECTION</a></button>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ const Home = () => {
                   <a href="tel:050-9016473">050-9016473</a>
                 </div>
                 <div className='flex items-center justify-center'>
-                  <button className='mt-4 border accent-text-color accent-border-color px-3 py-2'><a href="https://goo.gl/maps/eYQffKevbh8qAwky5">GET DIRECTION</a></button>
+                  <button className='mt-4 border accent-text-color accent-border-color px-3 py-2 accent-button'><a href="https://goo.gl/maps/eYQffKevbh8qAwky5">GET DIRECTION</a></button>
                 </div>
               </div>
             </div>

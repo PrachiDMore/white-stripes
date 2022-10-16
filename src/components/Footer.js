@@ -10,7 +10,7 @@ const Footer = ({ appointment, vipexperience }) => {
 				<div id='bottom' className={appointment ? 'footer-color py-16 w-screen text-white text-center' : 'hidden'}>
 					<h1 className='text-4xl'>BOOK YOUR APPOINTMENT NOW</h1>
 					<p className='Raleway text-sm mt-3'>Our clothes are tailored for the posture and the purpose.</p>
-					<button onClick={() => { navigate('/appointment') }} className='mt-5 border accent-text-color accent-border-color px-3 py-2'>BOOK NOW</button>
+					<button onClick={() => { navigate('/appointment') }} className='mt-5 border accent-text-color accent-border-color px-3 py-2 accent-button'>BOOK NOW</button>
 				</div>
 				<div className={vipexperience ? 'bg-gray-900 py-16 w-screen text-white text-center px-4 lg:px-44 flex flex-col items-center border-b  border-gray-800' : 'hidden'}>
 					<h1 className='text-3xl lg:text-4xl'>VIP EXPERIENCE</h1>

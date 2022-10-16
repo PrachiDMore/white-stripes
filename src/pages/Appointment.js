@@ -62,7 +62,7 @@ const Appointment = () => {
 											<label htmlFor="" className='ml-2 Raleway text-white mb-1'>Abu Dhabi</label>
 										</div>
 									</div>
-									<button onClick={handleSubmit} className='text-lg border border-red-600 p-2 px-10 text-white mt-5'>BOOK NOW</button>
+									<button onClick={handleSubmit} className='text-lg border border-red-600 p-2 px-10 text-white mt-5 accent-button'>BOOK NOW</button>
 								</div>
 							</div>
 							<div className='w-full lg:w-1/2'>

@@ -45,7 +45,7 @@ const Contact = () => {
 									<div className='flex flex-col items-center'>
 										<a href="tel:04-5913330">04-5913330</a>
 										<a href="tel:050-9016869">050-9016869</a>
-										<button className='mt-4 border accent-text-color accent-border-color px-3 py-2'><a href="https://goo.gl/maps/GFBY9fYHNGWGZQHJ9">GET DIRECTION</a></button>
+										<button className='mt-4 border accent-text-color accent-border-color px-3 py-2 accent-button'><a href="https://goo.gl/maps/GFBY9fYHNGWGZQHJ9">GET DIRECTION</a></button>
 									</div>
 								</div>
 							</div>
@@ -59,7 +59,7 @@ const Contact = () => {
 									<div className='flex flex-col items-center'>
 										<a href="tel:02-8865399">02-8865399</a>
 										<a href="tel:050-9016473">050-9016473</a>
-										<button className='mt-4 border accent-text-color accent-border-color px-3 py-2'><a href="https://goo.gl/maps/eYQffKevbh8qAwky5">GET DIRECTION</a></button>
+										<button className='mt-4 border accent-text-color accent-border-color px-3 py-2 accent-button'><a href="https://goo.gl/maps/eYQffKevbh8qAwky5">GET DIRECTION</a></button>
 									</div>
 								</div>
 							</div>
@@ -79,7 +79,7 @@ const Contact = () => {
 								<textarea value={message} onChange={(e) => { setMessage(e.target.value) }} className='resize-none h-32 text-gray-800 Raleway mt-1 w-full px-3 lg:px-6 font-bold py-2 border rounded-lg bg-white outline-none' placeholder='Enter Your Message'></textarea>
 							</div>
 							<div className="flex justify-center">
-								<button onClick={handleSubmit} className="px-3 py-1 bg-gray-700 rounded-md mt-3 text-white font-bold Raleway">Submit</button>
+								<button onClick={handleSubmit} className="px-3 py-1 rounded-md mt-3 text-white font-bold Raleway accent-button">Submit</button>
 							</div>
 						</div>
 					</div>
