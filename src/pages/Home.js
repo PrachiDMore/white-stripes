@@ -22,8 +22,8 @@ const Home = () => {
             <source type="video/mp4" />
           </video>
           <div className='w-full lg:w-auto flex lg:block items-center flex-col text-center lg:text-left p-0 lg:px-44 absolute position-top-60'>
-            <p className='accent-text-color text-3xl lg:text-40'>SAY</p>
-            <p className='text-3xl lg:text-40'>WHO YOU ARE</p>
+            <p className='text-animation-parent accent-text-color text-3xl lg:text-40'><span className='text-animation'>SAY</span>&nbsp;</p>
+            <p className='text-3xl lg:text-40 text-animation-parent'><span className='text-animation'>WHO</span>&nbsp;<span className='text-animation'>YOU</span>&nbsp;<span className='text-animation'>ARE</span></p>
             <p className='text-xs mt-1 lg:text-40 tracking-widest'>WITHOUT HAVING TO SPEAK</p>
             <button className='mt-4 border accent-text-color accent-border-color px-3 py-2 accent-button'><a href='#bottom'>FIND STORE</a></button>
           </div>
@@ -35,8 +35,8 @@ const Home = () => {
             <source type="video/mp4" />
           </video>
           <div className='w-full lg:w-auto flex lg:block items-center flex-col text-center lg:text-left p-0 lg:px-44 absolute position-top-70'>
-            <p className='accent-text-color text-3xl text-40'>SAY</p>
-            <p className='text-3xl text-40'>WHO YOU ARE</p>
+            <p className='text-animation-parent accent-text-color text-3xl text-40'><span className='text-animation'>SAY</span></p>
+            <p className='text-animation-parent text-3xl text-40'><span className='text-animation'>WHO</span>&nbsp;<span className='text-animation'>YOU</span>&nbsp;<span className='text-animation'>ARE</span></p>
             <p className='mt-1 text-xl tracking-widest'>WITHOUT HAVING TO SPEAK</p>
             <button className='accent-button mt-4 border accent-text-color accent-border-color px-3 py-2'><a href='#bottom'>FIND STORE</a></button>
           </div>
