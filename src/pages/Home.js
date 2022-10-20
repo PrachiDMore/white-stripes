@@ -61,7 +61,7 @@ const Home = () => {
         <section className='sm:block lg:hidden w-screen relative'>
           <img src="/Assets/about-left-bg.jpg" className='brightness-50 page-height z-0 absolute w-screen bg-cover' alt="" />
           <div className='text-white px-5 z-40 text-base flex flex-col justify-center relative top-10'>
-            <h1 className='text-olive text-2xl mb-3'>THE MASTER OF FINE TAILORING</h1>
+            <h1 className='text-olive text-2xl mb-3 Calibri'>THE MASTER OF FINE TAILORING</h1>
             <p className='my-4 Raleway word-spacing-3'>Over the years, The White Stripes Tailors & Shirtmakers has become the fine tailor of choice for gentlemen who like to leave an impression. Along with craftsmanship in fine tailoring, we have set the bar high with our undying passion for perfection, tradition and service.</p>
             <p className='my-4 Raleway word-spacing-3'>At The White Stripes, we are passionate about hand crafting garments that fit your personality and lifestyle. Trust The White Stripes to offer you only the highest quality bespoke suits in town tailored with the finest fabrics from mills around the world.</p>
           </div>
@@ -69,7 +69,7 @@ const Home = () => {
 
         {/* Third Section */}
         <section className='w-screen bg-gray-900 py-20 px-5 lg:px-36 flex flex-col items-center'>
-          <h1 className='text-white text-center text-3xl lg:text-4xl mt-32 lg:mt-0'>FINE FABRICS</h1>
+          <h1 className='text-white text-center text-3xl lg:text-4xl mt-32 lg:mt-0 Calibri'>FINE FABRICS</h1>
           <p className='Raleway text-white lg:text-center text-justify w-full lg:w-8/12 mt-10'>We believe a perfect suit has three main ingredients: the fine fabric, an impeccable fit and a touch of personality. As fabrics have a big role to play in suits used in summer, our team will invest time in understanding your usage pattern and recommend the finest fabric based on how you will be using your suit.</p>
           <div className='bg-gray-300 w-full grid lg:grid-cols-5 grid-cols-1 py-6 mt-10 px-6'>
             <img src="/Assets/01.png" className="mx-auto" alt="" />
@@ -82,7 +82,7 @@ const Home = () => {
 
         {/* Fourth Section */}
         <section className='w-screen bg-white py-20 lg:px-36 px-5 flex flex-col'>
-          <h1 className='text-gray-800 text-4xl text-center'>THE BRAND</h1>
+          <h1 className='text-gray-800 text-4xl text-center Calibri'>THE BRAND</h1>
           <p className='Raleway text-gray-800 mt-10 font-medium lg:text-left text-justify'>The White Stripes Tailors & Shirtmakers believes in the power of individualism, perfection and delightful service, and this spirit reflects in everything we do, from tailored suits to hand-sewn ties. We are devoted to classical gentlemen's elegance yet would embrace unconventionality based on individual taste. Our trained tailoring team will go that extra mile to delight you. </p>
           <div className="w-8/12 lg:w-4/12 h-auto m-auto mt-10 flex justify-between items-center">
             <a target={'_blank'} href="https://instagram.com/whitestripes_tailors"><span className='cursor-pointer p-3 text-2xl rounded-full buttons text-white duration-200 flex items-center justify-center w-max'><BsInstagram /></span></a>
@@ -90,14 +90,14 @@ const Home = () => {
             <a target={'_blank'} href="https://youtube.com/channel/UCaCe7oMK6p7B8Y29qzNJ9OA"><span className='cursor-pointer p-3 text-2xl rounded-full buttons text-white duration-200 flex items-center justify-center w-max'><AiFillYoutube /></span></a>
           </div>
           <div className='bg-gray-600 py-10 flex items-center flex-col mt-12 box-shadow-light'>
-            <h1 className='text-white text-4xl text-center'>OUR TAILORING</h1>
+            <h1 className='text-white text-4xl text-center Calibri'>OUR TAILORING</h1>
             <p className='Raleway text-white mt-10 text-center w-9/12'>A suit tells the world you are ready for business. With The White Stripes, you can be assured of a perfect bespoke experience ranging from a perfect fit to inlays that allow adjustment to the main body seams, and from cuffs that feature opening slit to hand stitched button holes and hand-sewn ties.</p>
           </div>
         </section>
 
         {/* Fifth Section */}
         <section className='w-screen bg-white py-20 px-5 lg:px-36 flex flex-col'>
-          <h1 className='text-gray-800 text-4xl text-center'>OUR STORES</h1>
+          <h1 className='text-gray-800 text-4xl text-center Calibri'>OUR STORES</h1>
           <div className='bg-white py-10 flex mt-10 lg:mt-36 lg:flex-row flex-col'>
             <div className='w-full lg:w-1/2 border-b lg:border-b-0 lg:pb-0 pb-10 lg:border-r text-center border-gray-600'>
               <h1 className='text-gray-800 text-3xl mb-2'>DUBAI</h1>

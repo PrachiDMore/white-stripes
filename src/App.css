@@ -13,6 +13,10 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.Calibri{
+  font-family: Calibri;
+}
+
 :focus {
   outline: none;
 }

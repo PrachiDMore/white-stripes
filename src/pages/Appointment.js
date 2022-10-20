@@ -29,10 +29,10 @@ const Appointment = () => {
 		<>
 			<div className='w-screen absolute top-32 main-bg-accent'>
 				<div className='pt-10'>
-					<h1 className='lg:block lg:px-44 text-2xl lg:text-4xl pb-10 accent-text-color lg:text-left text-left px-5'>BOOK APPOINTMENT</h1>
+					<h1 className='lg:block lg:px-44 text-2xl lg:text-4xl pb-10 accent-text-color lg:text-left text-left px-5 text-animation-parent'><span className='text-animation'>BOOK APPOINTMENT</span></h1>
 					<div className='main-bg-accent py-9 px-5 lg:px-44'>
 						<div className='w-full h-full py-6 px-3 text-left text-white flex flex-col'>
-							<h1 className='text-2xl lg:text-3xl'>FINEST BESPOKE TAILORS EXPERIENCE</h1>
+							<h1 className='text-2xl lg:text-3xl Calibri'>FINEST BESPOKE TAILORS EXPERIENCE</h1>
 							<p className='text-justify lg:text-left tracking-wider w-full text-sm Raleway mb-6 text-gray-300 mt-4'>Looking for the finest bespoke tailoring experience for your next suit in Dubai or Abu Dhabi? You've reached the right place. We are the masters of fine tailoring for men in UAE. A visit to your nearest store and a coffee with our master stylist will help you understand why we are considered one of the best in the UAE.</p>
 							<p className='text-justify lg:text-left tracking-wider w-full text-sm Raleway mb-6 text-gray-300'>Welcome to the The White Stripes appointment booking page. An appointment is not mandatory and you can walk in any time. Having said that, sometimes we get busy especially during weekends. An appointment will save your time, which you can spend with your loved ones!</p>
 						</div>
@@ -66,7 +66,7 @@ const Appointment = () => {
 								</div>
 							</div>
 							<div className='w-full lg:w-1/2'>
-								<h1 className='mb-6 text-white text-3xl'>VIP EXPERIENCE</h1>
+								<h1 className='mb-6 text-white text-3xl Calibri'>VIP EXPERIENCE</h1>
 								<p className='Raleway font-normal text-gray-100'>The White Stripes VIP Experience is designed for our premium customers. If you would like us to come to you, our service team and our experienced master tailor will visit your home or office in Abu Dhabi and Dubai city area as you find convenient. You will be able to choose every detail including fabric, styling, lining and trims. Please drop us an email on delight@whitestripes-tailoring.com with your contact details and our team will get in touch with you to fix an appointment within 24 hours.</p>
 							</div>
 						</div>
