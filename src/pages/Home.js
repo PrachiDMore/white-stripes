@@ -58,8 +58,8 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='sm:block lg:hidden w-screen relative'>
-          <img src="/Assets/about-left-bg.jpg" className='brightness-50 page-height z-0 absolute w-screen bg-cover' alt="" />
+        <section className='sm:block lg:hidden w-screen relative bg-cover' style={{height: '60vh', backgroundImage: 'url("https://white-stripe.vercel.app/Assets/about-left-bg.jpg")'}}>
+          {/* <img src="/Assets/about-left-bg.jpg" className='brightness-50 page-height z-0 absolute w-screen bg-cover' alt="" /> */}
           <div className='text-white px-5 z-40 text-base flex flex-col justify-center relative top-10'>
             <h1 className='text-olive text-2xl mb-3 Calibri'>THE MASTER OF FINE TAILORING</h1>
             <p className='my-4 Raleway word-spacing-3'>Over the years, The White Stripes Tailors & Shirtmakers has become the fine tailor of choice for gentlemen who like to leave an impression. Along with craftsmanship in fine tailoring, we have set the bar high with our undying passion for perfection, tradition and service.</p>
@@ -68,8 +68,8 @@ const Home = () => {
         </section>
 
         {/* Third Section */}
-        <section className='w-screen bg-gray-900 py-20 px-5 lg:px-36 flex flex-col items-center'>
-          <h1 className='text-white text-center text-3xl lg:text-4xl mt-32 lg:mt-0 Calibri'>FINE FABRICS</h1>
+        <section className='w-screen bg-gray-900 pb-20 px-5 lg:px-36 flex flex-col items-center'>
+          <h1 className='text-white text-center text-3xl lg:text-4xl mt-20 lg:mt-0 Calibri'>FINE FABRICS</h1>
           <p className='Raleway text-white lg:text-center text-justify w-full lg:w-8/12 mt-10'>We believe a perfect suit has three main ingredients: the fine fabric, an impeccable fit and a touch of personality. As fabrics have a big role to play in suits used in summer, our team will invest time in understanding your usage pattern and recommend the finest fabric based on how you will be using your suit.</p>
           <div className='bg-gray-300 w-full grid lg:grid-cols-5 grid-cols-1 py-6 mt-10 px-6'>
             <img src="/Assets/01.png" className="mx-auto" alt="" />
