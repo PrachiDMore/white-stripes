@@ -19,19 +19,19 @@ const Fabrics = () => {
 						<div className='mt-5 lg:mt-10 w-full h-full py-6 text-center text-white flex items-center flex-col'>
 							<h1 className='text-3xl'>SUITINGS</h1>
 							<div className='hidden grid-cols-1 lg:grid-cols-4 gap-10 mt-10'>
-								<div className='p-5 bg-white w-full'>
+								<div className='p-3 bg-white w-full'>
 									<img className='h-32 w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='p-5 bg-white w-full'>
+								<div className='p-3 bg-white w-full'>
 									<img className='h-32 w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='p-5 bg-white w-full'>
+								<div className='p-3 bg-white w-full'>
 									<img className='h-32 w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='p-5 bg-white w-full'>
+								<div className='p-3 bg-white w-full'>
 									<img className='h-32 w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='p-5 bg-white w-full'>
+								<div className='p-3 bg-white w-full'>
 									<img className='h-32 w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
 							</div>
@@ -39,22 +39,22 @@ const Fabrics = () => {
 						<div className='px-10 lg:px-20 mt-10 bg-gray-900 w-full py-8 text-center text-white'>
 							<h1 className='text-3xl'>SHIRTINGS</h1>
 							<div className='mt-8 hidden grid-cols-1 lg:grid-cols-5 gap-8'>
-								<div className='flex items-center justify-center p-5 bg-white w-full'>
+								<div className='flex items-center justify-center p-3 bg-white w-full'>
 									<img className='h-28 lg:h-24 w-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='flex items-center justify-center p-5 bg-white w-full'>
+								<div className='flex items-center justify-center p-3 bg-white w-full'>
 									<img className='h-28 lg:h-24 w-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='flex items-center justify-center p-5 bg-white w-full'>
+								<div className='flex items-center justify-center p-3 bg-white w-full'>
 									<img className='h-28 lg:h-24 w-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='flex items-center justify-center p-5 bg-white w-full'>
+								<div className='flex items-center justify-center p-3 bg-white w-full'>
 									<img className='h-28 lg:h-24 w-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='flex items-center justify-center p-5 bg-white w-full'>
+								<div className='flex items-center justify-center p-3 bg-white w-full'>
 									<img className='h-28 lg:h-24 w-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
-								<div className='flex items-center justify-center p-5 bg-white w-full'>
+								<div className='flex items-center justify-center p-3 bg-white w-full'>
 									<img className='h-28 lg:h-24 w-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/300px-Abu_dhabi_skylines_2014.jpg" alt="" />
 								</div>
 							</div>
