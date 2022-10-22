@@ -32,7 +32,10 @@ const AbuDhabi = () => {
 							<p className='Raleway mb-0.5 mt-6 lg:mt-4'>THE WHITE STRIPES</p>
 							<p className='Raleway mb-0.5'>Shop No 1, Al Hashemi Building, Al Dhafra St - Abu Dhabi</p>
 							<p className='Raleway mb-0.5'>United Arab Emirates</p>
-							<p className='Raleway mt-2 text-xl mb-2'><a href="tel:(+971) 02-8865399">(+971) 02-8865399</a></p>
+							<div className='flex flex-col items-center'>
+								<p className='Raleway mt-2 text-xl mb-2'><a href="tel:(+971) 02-8865399">(+971) 02-8865399</a></p>
+								<p className='Raleway mt-2 text-xl mb-2'><a href="tel:(+971) 050-9016473">(+971) 050-9016473</a></p>
+							</div>
 							<p className='Raleway'><a href="mailto:delight@whitestripes-tailoring.com">delight@whitestripes-tailoring.com</a></p>
 						</div>
 					</div>
