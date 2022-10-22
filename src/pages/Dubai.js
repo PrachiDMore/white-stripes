@@ -17,7 +17,7 @@ const Dubai = () => {
 						<h1 className='text-center text-white text-2xl lg:text-4xl mb-4 Calibri'>GALLERY</h1>
 						<div className='pt-4'>
 							<div className='m-auto grid lg:grid-cols-3 w-10/12 lg:gap-y-10 grid-cols-1 gap-y-6'>
-								<div style={{padding: '0.1rem'}} className='w-max bg-white m-auto shadow-2xl ease-out cursor-pointer hover:scale-110 duration-500'><img className="m-auto h-40 aspect-video" src="/Assets/Dubai/01.jpg" alt="" /></div>
+								<div style={{padding: '0.1rem'}} className='w-max bg-white m-auto shadow-2xl ease-out cursor-pointer hover:scale-110 duration-500'><img className="m-auto h-40 aspect-video" src="/Assets/Dubai/07.jpg" alt="" /></div>
 								<div style={{padding: '0.1rem'}} className='w-max bg-white m-auto shadow-2xl ease-out cursor-pointer hover:scale-110 duration-500'><img className="m-auto h-40 aspect-video" src="/Assets/Dubai/02.jpg" alt="" /></div>
 								<div style={{padding: '0.1rem'}} className='w-max bg-white m-auto shadow-2xl ease-out cursor-pointer hover:scale-110 duration-500'><img className="m-auto h-40 aspect-video" src="/Assets/Dubai/03.jpg" alt="" /></div>
 								<div style={{padding: '0.1rem'}} className='w-max bg-white m-auto shadow-2xl ease-out cursor-pointer hover:scale-110 duration-500'><img className="m-auto h-40 aspect-video" src="/Assets/Dubai/04.jpg" alt="" /></div>
