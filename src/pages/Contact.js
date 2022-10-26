@@ -17,7 +17,7 @@ const Contact = () => {
 			}
 		})
 			.then(() => {
-				alert('Response Recorded!');
+				alert("Thank you for your interest in The White Stripes. Our team member will get in touch with within 24 hours.");
 			})
 			.catch((err) => {
 				alert(err.message)
