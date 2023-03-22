@@ -7,7 +7,7 @@ const Footer = ({ appointment, vipexperience }) => {
 	return (
 		<>
 			<div>
-				<div id='bottom' className={appointment ? 'footer-color py-16 w-screen text-white text-center' : 'hidden'}>
+				<div className={appointment ? 'footer-color py-16 w-screen text-white text-center' : 'hidden'}>
 					<h1 className='text-4xl'>BOOK YOUR APPOINTMENT NOW</h1>
 					<p className='Raleway text-sm mt-3'>Our clothes are tailored for the posture and the purpose.</p>
 					<button onClick={() => { navigate('/appointment') }} className='mt-5 border accent-text-color accent-border-color px-3 py-2 accent-button'>BOOK NOW</button>

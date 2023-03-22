@@ -38,7 +38,7 @@ const Home = () => {
             <p className='text-animation-parent accent-text-color text-3xl text-40'><span className='text-animation'>SAY</span></p>
             <p className='text-animation-parent text-3xl text-40'><span className='text-animation'>WHO</span>&nbsp;<span className='text-animation'>YOU</span>&nbsp;<span className='text-animation'>ARE</span></p>
             <p className='mt-1 text-xl tracking-widest'>WITHOUT HAVING TO SPEAK</p>
-            <button className='accent-button mt-4 border accent-text-color accent-border-color px-3 py-2'><a href='#bottom'>FIND STORE</a></button>
+            <button  className='accent-button mt-4 border accent-text-color accent-border-color px-3 py-2'><a href='#bottom'>FIND STORE</a></button>
           </div>
         </section>
 
@@ -99,7 +99,7 @@ const Home = () => {
         </section>
 
         {/* Fifth Section */}
-        <section className='w-screen bg-white py-20 px-5 lg:px-36 flex flex-col'>
+        <section className='w-screen bg-white py-20 px-5 lg:px-36 flex flex-col' id='bottom'>
           <h1 className='text-gray-800 text-4xl text-center Calibri'>OUR STORES</h1>
           <div className='bg-white py-10 flex mt-10 lg:mt-36 lg:flex-row flex-col'>
             <div className='w-full lg:w-1/2 border-b lg:border-b-0 lg:pb-0 pb-10 lg:border-r text-center border-gray-600'>
