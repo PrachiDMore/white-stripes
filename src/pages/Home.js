@@ -48,7 +48,7 @@ const Home = () => {
             {/* left */}
             <div className='w-1/2 bg-gray-900 flex justify-end items-center -z-20 bg-contain bg-center bg-no-repeat'>
               {/* <img src="/Assets/about-left-bg.jpg" alt="" /> */}
-              <div className='flex items-center justify-end p-32 page-height bg-no-repeat w-full'  style={{backgroundPositionX: "right", backgroundPositionY: "center", backgroundImage: 'url("https://white-stripe.vercel.app/Assets/about-left-bg.jpg")' }}>
+              <div className='flex items-center justify-end p-32 page-height bg-no-repeat w-full'  style={{backgroundPositionX: "right", backgroundPositionY: "center", backgroundImage: 'url("https://whitestripes-tailoring.com/Assets/about-left-bg.jpg")' }}>
                 <h1 className=' bg-black bg-opacity-40 h-5/6 w-5/6 p-4 text-olive text-3xl Calibri flex items-center'>THE <br/>MASTER OF <br/> FINE TAILORING</h1>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='block lg:hidden w-screen bg-cover py-10' style={{ backgroundImage: 'url("https://white-stripe.vercel.app/Assets/about-left-bg.jpg")' }}>
+        <section className='block lg:hidden w-screen bg-cover py-10' style={{ backgroundImage: 'url("https://whitestripes-tailoring.com/Assets/about-left-bg.jpg")' }}>
           {/* <img src="/Assets/about-left-bg.jpg" className='brightness-50 page-height z-0 absolute w-screen bg-cover' alt="" /> */}
           <div className='text-white px-5 z-40 text-base flex flex-col justify-center'>
             <h1 className='text-olive text-2xl mb-3 Calibri mt-5'>THE MASTER OF FINE TAILORING</h1>
