@@ -6,24 +6,28 @@ const Appointment = () => {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [mobileNumber, setMobileNumber] = useState("");
-	const [location, setLocation] = useState("");
+	const [location, setLocation] = useState("Dubai");
 	const handleSubmit = () => {
-		axios({
-			method: 'post',
-			url: `https://white-stripe-backend.vercel.app/self-appointment`,
-			data: {
-				email: email,
-				name: name,
-				phonenumber: mobileNumber,
-				location: location
-			}
-		})
-			.then(() => {
-				alert("Thank you for your interest in The White Stripes. You've made the right choice. Our team member will get in touch with within 24 hours to discuss your appointment");
+		if(name && email && mobileNumber && location){
+			axios({
+				method: 'post',
+				url: `https://white-stripe-backend.vercel.app/self-appointment`,
+				data: {
+					email: email,
+					name: name,
+					phonenumber: mobileNumber,
+					location: location
+				}
 			})
-			.catch((err) => {
-				alert(err.message)
-			})
+				.then(() => {
+					alert("Thank you for your interest in The White Stripes. You've made the right choice. Our team member will get in touch with within 24 hours to discuss your appointment");
+				})
+				.catch((err) => {
+					alert(err.message)
+				})
+		}else{
+			alert("Form Incomplete")
+		}
 	}
 	return (
 		<>
@@ -54,11 +58,11 @@ const Appointment = () => {
 									</div>
 									<div className='flex mt-5'>
 										<div className='flex items-center'>
-											<input type="radio" onClick={() => { setLocation("Dubai") }} name="place" placeholder='Enter Your Email Address' className='px-3 py-2 bg-white rounded-md outline-none' />
+											<input value={location === "Dubai"} checked={location === "Dubai"} type="radio" onChange={() => { setLocation("Dubai") }} name="place" placeholder='Enter Your Email Address' className='px-3 py-2 bg-white rounded-md outline-none' />
 											<label htmlFor="" className='ml-2 Raleway text-white mb-1'>Dubai</label>
 										</div>
 										<div className='flex items-center ml-3'>
-											<input type="radio" onClick={() => { setLocation("Abu Dhabi") }} name="place" placeholder='Enter Your Email Address' className='px-3 py-2 bg-white rounded-md outline-none' />
+											<input type="radio" value={location === "Abu Dhabi"} checked={location === "Abu Dhabi"} onChange={() => { setLocation("Abu Dhabi") }} name="place" placeholder='Enter Your Email Address' className='px-3 py-2 bg-white rounded-md outline-none' />
 											<label htmlFor="" className='ml-2 Raleway text-white mb-1'>Abu Dhabi</label>
 										</div>
 									</div>
